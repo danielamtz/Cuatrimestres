@@ -1,0 +1,12 @@
+from producto import producto
+fabricante= raw_input("ingresa el fabricante: ")
+codigo= raw_input("ingresa el codigo: ")
+compra=float( input("ingresa el precio de compra: "))
+venta= float(input("ingresa el precio de venta: "))
+cantidad= input("Cantidad Actual del producto: ")
+myProducto=producto(fabricante,codigo,compra, venta,cantidad)
+myProducto.calcularGanancia()
+adquirido= input("Producto adquirido: ")
+myProducto.comprarProducto(adquirido)
+myProducto.calcularGanancia()
+myProducto.printToScreen()
