@@ -1,0 +1,44 @@
+
+C:\Users\Angel> cd/
+
+C:\>cd apex
+
+C:\apex>sqlplus /nolog
+
+SQL*Plus: Release 11.2.0.2.0 Production on Mar Oct 10 10:25:38 2017
+
+Copyright (c) 1982, 2014, Oracle.  All rights reserved.
+
+SQL> conn sys as sysdba
+Enter password:
+Connected.
+
+
+SQL> select dbms_xdb.gethttpport() from dual;
+
+DBMS_XDB.GETHTTPPORT()
+----------------------
+                  8080
+
+
+SQL> exec dbms_xdb.sethttpport(9090);
+
+PL/SQL procedure successfully completed.
+
+SQL> CREATE TABLESPACE APPX
+  2  DATAFILE 'C:\oraclexe\app\oracle\oradata\XE\APPX_101017.dbf' SIZE 300M
+  3  EXTENT MANAGEMENT LOCAL
+  4  SEGMENT SPACE MANAGEMENT AUTO;
+
+Tablespace created.
+
+
+SQL> CREATE TEMPORARY TABLESPACE TEMP_02
+  2  TEMPFILE 'C:\oraclexe\app\oracle\oradata\XE\Temp_02_01.dbf' SIZE 100M;
+
+Tablespace created.
+
+
+@apex_epg_config.sql c:\
+
+

@@ -1,0 +1,30 @@
+localhost:9090/apex/
+cd..
+cd..
+cd apex
+sqlplus /nolog
+
+
+**ENTRAR CON CONTRASEÑA**
+conn sys as sysdba
+***ver puerto***
+select dbms_xdb.gethttpport () from dual;
+**cambiar puerto**
+exec dbms_xdb.sethttpport(puerto (9090));
+
+**CREAR ESPACIO TABLA**
+CREATE TABLESPACE APPX
+DATAFILE 'C:\oraclexe\app\oracle\oradata\XE\ NOMBREESPACIO.dbf' SIZE 300M
+EXTENT MANAGEMENT LOCAL
+SEGMENT SPACE MANAGEMENT AUTO;
+
+**Crear espacio temporal tabla**
+CREATE TEMPORARY TABLESPACE nombre (EJEMPLO: TEMP_02)
+TEMPFILE 'C:\oraclexe\app\oracle\oradata\XE\nombre.dbf' SIZE 100M;
+
+@apexins.sql APPX APPX TEMP_02 /i/  <---nombre /i/ 
+@apex_epg_config.sql c:\
+
+
+**actualizar**
+@apxldimg.sql c:\
