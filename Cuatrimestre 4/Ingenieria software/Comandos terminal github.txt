@@ -1,0 +1,44 @@
+SINCORNIZAR CODIGO
+
+-git push (subir el codigo)
+
+-git clone 
+
+-git remote (direccion donde se guarda).
+
+     
+ CAMBIOS EN GIT-HUB WEB SINCRONIZADOS EN LA TERMINAL
+
+-git pull origin master
+
+-git log (ver el historial)
+
+ 
+RAMASSS
+
+-git log   (muestra hostorial o algo asi)
+
+-git branch (y muestra las ramas o escribes el nombre de la nueva rama)
+
+-git checkout _nombre (para cambiar de rama)
+
+-switched to branch _nombre (tambien para cambiar de rama)
+
+-git merge _nombre (fusionar las ramas)
+-
+ 
+ ELIMINAR RAMAS
+
+-git branch -d  _nombre.rama
+
+-git gc (recolector de basura para eliminar ramas)
+
+
+git commit --amend   (modificar commit)
+
+git reset --soft HEAD~1(desase el commit para volver a editar el comentario)
+
+git reset HEAD nombre de file(desase todo el commit para volver a darle add desde el principio
+
+ISSUE
+-referneciado desde issue #<--numero del issue
