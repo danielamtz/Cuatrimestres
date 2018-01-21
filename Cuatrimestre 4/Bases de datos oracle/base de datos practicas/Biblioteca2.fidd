@@ -1,0 +1,253 @@
+<?xml version="1.0"?>
+<!--AddFlow.net diagram-->
+<AddFlow Nodes="22" Links="21">
+  <Version>2.3.3.1</Version>
+  <DefaultNode>
+    <Shadow Style="None" Color="-16777216" Width="4" Height="4" />
+    <GradientMode>Horizontal</GradientMode>
+    <GradientColor>-128</GradientColor>
+  </DefaultNode>
+  <DefaultLink>
+    <OrientedText>True</OrientedText>
+  </DefaultLink>
+  <Node Index="0" Left="163" Top="136" Width="110" Height="67">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Autor</Text>
+    <Tooltip>Entidad:Entidad0Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Node Index="1" Left="37" Top="66" Width="108" Height="71">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-256</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Codigo</Text>
+    <Tooltip>Atributo:Atributo4Tipo: [Atributo_Simple]</Tooltip>
+    <Font Name="Arial" Size="8.25" Bold="False" Italic="False" Strikeout="False" Underline="True" />
+    <Tipo>Clave</Tipo>
+  </Node>
+  <Node Index="2" Left="798" Top="146" Width="107" Height="63">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Libro</Text>
+    <Tooltip>Entidad:Entidad1Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Node Index="3" Left="808" Top="435" Width="105" Height="66">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Ejemplar</Text>
+    <Tooltip>Entidad:Entidad2Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Node Index="4" Left="185" Top="444" Width="109" Height="64">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Usuario</Text>
+    <Tooltip>Entidad:Entidad3Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Link Index="5" Org="1" Dst="0" />
+  <Node Index="6" Left="14" Top="190" Width="123" Height="71">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Nombre</Text>
+    <Tooltip>Atributo:Atributo5Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="7" Org="6" Dst="0" />
+  <Node Index="8" Left="60" Top="373" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-256</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Codigo</Text>
+    <Tooltip>Atributo:Atributo6Tipo: [Atributo_Simple]</Tooltip>
+    <Font Name="Arial" Size="8.25" Bold="False" Italic="False" Strikeout="False" Underline="True" />
+    <Tipo>Clave</Tipo>
+  </Node>
+  <Link Index="9" Org="8" Dst="4" />
+  <Node Index="10" Left="51" Top="454" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Nombre</Text>
+    <Tooltip>Atributo:Atributo7Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="11" Org="10" Dst="4" />
+  <Node Index="12" Left="65" Top="526" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Direccion</Text>
+    <Tooltip>Atributo:Atributo8Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="13" Org="12" Dst="4" />
+  <Node Index="14" Left="128" Top="564" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Telefono</Text>
+    <Tooltip>Atributo:Atributo9Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="15" Org="14" Dst="4" />
+  <Node Index="16" Left="912" Top="2" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-256</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Codigo</Text>
+    <Tooltip>Atributo:Atributo10Tipo: [Atributo_Simple]</Tooltip>
+    <Font Name="Arial" Size="8.25" Bold="False" Italic="False" Strikeout="False" Underline="True" />
+    <Tipo>Clave</Tipo>
+  </Node>
+  <Link Index="17" Org="16" Dst="2" />
+  <Node Index="18" Left="941" Top="52" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Titulo</Text>
+    <Tooltip>Atributo:Atributo11Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="19" Org="18" Dst="2" />
+  <Node Index="20" Left="948" Top="111" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>ISBN</Text>
+    <Tooltip>Atributo:Atributo12Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="21" Org="20" Dst="2" />
+  <Node Index="22" Left="949" Top="170" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Editorial</Text>
+    <Tooltip>Atributo:Atributo13Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="23" Org="22" Dst="2" />
+  <Node Index="24" Left="947" Top="234" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Paginas</Text>
+    <Tooltip>Atributo:Atributo14Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="25" Org="24" Dst="2" />
+  <Node Index="26" Left="426" Top="139" Width="115" Height="83">
+    <OutLinkable>False</OutLinkable>
+    <HighlightChildren>False</HighlightChildren>
+    <Shape Style="Losange" Orientation="so_0" />
+    <FillColor>-8323200</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Escribe</Text>
+    <Tooltip>TipoRelacion Debil15Tipo: RDebil</Tooltip>
+    <Tipo>RDebil</Tipo>
+  </Node>
+  <Node Index="27" Left="803" Top="277" Width="111" Height="87">
+    <OutLinkable>False</OutLinkable>
+    <HighlightChildren>False</HighlightChildren>
+    <Shape Style="Losange" Orientation="so_0" />
+    <FillColor>-8323200</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Tiene</Text>
+    <Tooltip>TipoRelacion Debil17Tipo: RDebil</Tooltip>
+    <Tipo>RDebil</Tipo>
+  </Node>
+  <Node Index="28" Left="440" Top="420" Width="114" Height="86">
+    <OutLinkable>False</OutLinkable>
+    <HighlightChildren>False</HighlightChildren>
+    <Shape Style="Losange" Orientation="so_0" />
+    <FillColor>-8323200</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Ejemplar</Text>
+    <Tooltip>TipoRelacion Debil19Tipo: RDebil</Tooltip>
+    <Tipo>RDebil</Tipo>
+  </Node>
+  <Node Index="29" Left="468" Top="312" Width="87" Height="50">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Fecha_de_prestamo</Text>
+    <Tooltip>Atributo:Atributo21Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="30" Org="29" Dst="28" />
+  <Node Index="31" Left="454" Top="563" Width="84" Height="54">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Fecha_de_devolucion</Text>
+    <Tooltip>Atributo:Atributo22Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="32" Org="31" Dst="28" />
+  <Node Index="33" Left="974" Top="401" Width="85" Height="49">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-256</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Codigo</Text>
+    <Tooltip>Atributo:Atributo23Tipo: [Atributo_Simple]</Tooltip>
+    <Font Name="Arial" Size="8.25" Bold="False" Italic="False" Strikeout="False" Underline="True" />
+    <Tipo>Clave</Tipo>
+  </Node>
+  <Link Index="34" Org="33" Dst="3" />
+  <Node Index="35" Left="954" Top="504" Width="122" Height="49">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Localización</Text>
+    <Tooltip>Atributo:Atributo24Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="36" Org="35" Dst="3" />
+  <Link Index="37" Org="0" Dst="26">
+    <ArrowOrg Head="ManyOptional" Size="Small" Angle="deg15" Filled="False" />
+    <Text>N</Text>
+  </Link>
+  <Link Index="38" Org="2" Dst="26">
+    <ArrowOrg Head="ManyOptional" Size="Small" Angle="deg15" Filled="False" />
+    <Text>N</Text>
+  </Link>
+  <Link Index="39" Org="2" Dst="27">
+    <ArrowOrg Head="One" Size="Small" Angle="deg15" Filled="False" />
+    <Text>1</Text>
+  </Link>
+  <Link Index="40" Org="3" Dst="27">
+    <ArrowOrg Head="Many" Size="Small" Angle="deg15" Filled="False" />
+    <Text>N</Text>
+  </Link>
+  <Link Index="41" Org="3" Dst="28">
+    <ArrowOrg Head="Many" Size="Small" Angle="deg15" Filled="False" />
+    <Text>N</Text>
+  </Link>
+  <Link Index="42" Org="4" Dst="28">
+    <ArrowOrg Head="ManyOptional" Size="Small" Angle="deg15" Filled="False" />
+    <Text>N</Text>
+  </Link>
+</AddFlow>

@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<!--AddFlow.net diagram-->
+<AddFlow Nodes="15" Links="11">
+  <Version>2.3.3.1</Version>
+  <DefaultNode>
+    <Shadow Style="None" Color="-16777216" Width="4" Height="4" />
+    <GradientMode>Horizontal</GradientMode>
+    <GradientColor>-128</GradientColor>
+  </DefaultNode>
+  <DefaultLink>
+    <OrientedText>True</OrientedText>
+  </DefaultLink>
+  <Node Index="0" Left="161" Top="134" Width="110" Height="67">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Autor</Text>
+    <Tooltip>Entidad:Entidad0Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Node Index="1" Left="796" Top="144" Width="107" Height="63">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Libro</Text>
+    <Tooltip>Entidad:Entidad1Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Node Index="2" Left="826" Top="362" Width="105" Height="66">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Ejemplar</Text>
+    <Tooltip>Entidad:Entidad2Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Node Index="3" Left="183" Top="442" Width="109" Height="64">
+    <Shape Style="Rectangle" Orientation="so_0" />
+    <FillColor>-16711681</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Usuario</Text>
+    <Tooltip>Entidad:Entidad3Tipo: [ESimple]</Tooltip>
+    <Tipo>ESimple</Tipo>
+  </Node>
+  <Node Index="4" Left="35" Top="64" Width="108" Height="71">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-256</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Codigo</Text>
+    <Tooltip>Atributo:Atributo4Tipo: [Atributo_Simple]</Tooltip>
+    <Font Name="Arial" Size="8.25" Bold="False" Italic="False" Strikeout="False" Underline="True" />
+    <Tipo>Clave</Tipo>
+  </Node>
+  <Link Index="5" Org="4" Dst="0" />
+  <Node Index="6" Left="12" Top="188" Width="123" Height="71">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Nombre</Text>
+    <Tooltip>Atributo:Atributo5Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="7" Org="6" Dst="0" />
+  <Node Index="8" Left="58" Top="371" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-256</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Codigo</Text>
+    <Tooltip>Atributo:Atributo6Tipo: [Atributo_Simple]</Tooltip>
+    <Font Name="Arial" Size="8.25" Bold="False" Italic="False" Strikeout="False" Underline="True" />
+    <Tipo>Clave</Tipo>
+  </Node>
+  <Link Index="9" Org="8" Dst="3" />
+  <Node Index="10" Left="49" Top="452" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Nombre</Text>
+    <Tooltip>Atributo:Atributo7Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="11" Org="10" Dst="3" />
+  <Node Index="12" Left="63" Top="524" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Direccion</Text>
+    <Tooltip>Atributo:Atributo8Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="13" Org="12" Dst="3" />
+  <Node Index="14" Left="126" Top="562" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Telefono</Text>
+    <Tooltip>Atributo:Atributo9Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="15" Org="14" Dst="3" />
+  <Node Index="16" Left="910" Top="0" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-256</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Codigo</Text>
+    <Tooltip>Atributo:Atributo10Tipo: [Atributo_Simple]</Tooltip>
+    <Font Name="Arial" Size="8.25" Bold="False" Italic="False" Strikeout="False" Underline="True" />
+    <Tipo>Clave</Tipo>
+  </Node>
+  <Link Index="17" Org="16" Dst="1" />
+  <Node Index="18" Left="939" Top="50" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Titulo</Text>
+    <Tooltip>Atributo:Atributo11Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="19" Org="18" Dst="1" />
+  <Node Index="20" Left="946" Top="109" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>ISBN</Text>
+    <Tooltip>Atributo:Atributo12Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="21" Org="20" Dst="1" />
+  <Node Index="22" Left="947" Top="168" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Editorial</Text>
+    <Tooltip>Atributo:Atributo13Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="23" Org="22" Dst="1" />
+  <Node Index="24" Left="945" Top="232" Width="60" Height="40">
+    <InLinkable>False</InLinkable>
+    <OutLinkable>False</OutLinkable>
+    <FillColor>-128</FillColor>
+    <TextColor>-16777216</TextColor>
+    <Text>Paginas</Text>
+    <Tooltip>Atributo:Atributo14Tipo: [Atributo_Simple]</Tooltip>
+    <Tipo>Atributo_Simple</Tipo>
+  </Node>
+  <Link Index="25" Org="24" Dst="1" />
+</AddFlow>
